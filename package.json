@@ -1,0 +1,41 @@
+{
+  "name": "@crbroughton/signals",
+  "type": "module",
+  "version": "0.0.1",
+  "description": "A basic implementation of Signals",
+  "author": "Craig R Broughton",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crbroughtosignals.git"
+  },
+  "keywords": [
+    "typescript",
+    "signals",
+    "bun"
+  ],
+  "module": "index.ts",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "typecheck": "tsc --skipLibCheck --noEmit",
+    "build": "bun run typecheck && bun run build.ts",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "changeset": "npx changeset",
+    "changeset:status": "npx changeset status --verbose",
+    "changeset:version": "npx changeset version",
+    "publish": "bun run build && npm publish --access=public"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^3.11.2",
+    "@types/bun": "latest",
+    "bun-plugin-dts": "^0.3.0",
+    "eslint": "^9.15.0"
+  }
+}
