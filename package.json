@@ -7,7 +7,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/crbroughtosignals.git"
+    "url": "git+https://github.com/crbroughton/signals.git"
   },
   "keywords": [
     "typescript",
