@@ -1,7 +1,7 @@
 {
   "name": "@crbroughton/signals",
   "type": "module",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A basic implementation of Signals",
   "author": "Craig R Broughton",
   "license": "MIT",
